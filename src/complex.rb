@@ -45,8 +45,6 @@ class Complex
       back_end(cost_type) ? scala : 0
     elsif lang =~ /swift/i
       back_end(cost_type) ? swift : 0
-    elsif lang =~ /vb/i
-      back_end(cost_type) ? vb : 0
     elsif lang =~ /clojure/i
       back_end(cost_type) ? vb : 0
     elsif lang =~ /shell/i
