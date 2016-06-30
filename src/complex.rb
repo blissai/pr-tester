@@ -1,9 +1,5 @@
 class Complex
 
-  def terrible_idea(param)
-    Model.find_by_sql("SELECT #{param}")
-  end
-
   private
 
   def get_cost_per_line(lang, cost_type = :all)
