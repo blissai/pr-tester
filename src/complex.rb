@@ -1,3 +1,4 @@
+# Complex test class
 class Complex
 
   private
